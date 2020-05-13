@@ -1,13 +1,10 @@
 <html>
 
     <head lang="en">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
 
         <title>Horsts Fotoblog</title>
     </head>
-
-
 
     <body>
         <header>
@@ -19,14 +16,14 @@
         </main>
 
         <nav>
-            <a href="/about/">about</a>
-            <a href="/service/">service</a>
+            <a href="#about_overview">about</a>
+            <a href="#service_view">service</a>
         </nav>
 
         <hr>
 
-        <div id="templates" >
-
+        <div id="templates">
+     
             <div id="blog_overview">
 
                 <div> 
@@ -37,8 +34,8 @@
                         </header> 
                         <section>
                             <figure>
-                                <img src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.stupidedia.org%2Fimages%2Fthumb%2F2%2F25%2FHorst_Seehofer.jpg%2F250px-Horst_Seehofer.jpg&sp=1589376416Tb5fbee69c789f6235da4172747dce3680c45a8322a54acccf90db2b3142b1175" width="250" height="250" alt="Horst und Gürkchen">
-                                <figcaption>Horst und Gürkchen</figcaption>
+                                <img src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.denofgeek.com%2Fwp-content%2Fuploads%2F2011%2F04%2F185428-1.jpg%3Fresize%3D400%252C400&sp=1589381759T0199d36e2a4d1f19589291872b71e132a6d41a8ac15701ca668d49cac9f0f55d" width="250" height="250" alt="Arnie in Power">
+                                <figcaption>Arnie</figcaption>
                             </figure>
 
                             <p>preview of the content of the article</p>   
@@ -62,13 +59,18 @@
             </div>
 
             <hr>
+
             <div id="post_detail">
                 <article>
                     <h2>Post Titel</h2>
                     <p>whole content of the article</p>
                     <p>comment section</p>
+                    <ul id="comment_buttons">
+                <li><img class="icon" src="https://image.flaticon.com/icons/svg/126/126483.svg" width="20" height="20" alt="Edit"></li>
+                <li><img class="icon" src="https://image.flaticon.com/icons/svg/126/126497.svg" width="20" height="20" alt="Delete"></li>
+            </ul>
                 </article>
-                <a href="/overview">go back to home</a>
+                <a href="#blog_overview">go back to home</a>
             </div>
 
             <hr>
@@ -78,7 +80,6 @@
                     <p> Lasst mich vorstellen:</p>
                 </header> 
                 <p> Ich bin Horst & Fotograf in Berlin. </p>
-            </div>
 
             <hr>
             <div id="service_view">
@@ -106,6 +107,7 @@
                     13049 Berlin</p>
 
             </div>
+
             <hr>
 
             <div id="more_view">
@@ -120,8 +122,8 @@
 
         <footer id="footer">
 
-            <a href="/impressum/">impressum</a>
-            <a href="/archive/">archive</a>
+            <a href="#impressum_view/">impressum</a>
+            <a href="#more_view">more</a>
         </footer>
 
     </body>
