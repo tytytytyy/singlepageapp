@@ -1,0 +1,65 @@
+<html>
+
+    <head lang="en">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+
+        <title>Single Page App</title>
+    </head>
+    
+    <nav>
+        <a href="/about/">about</a>
+        <a href="/service/">service</a>
+    </nav>
+
+    <body>
+        <header>
+            <h1>Blogtitel</h1>
+        </header>
+        <hr>
+
+        <main id="main-content">
+        </main>
+
+        <hr>
+        <footer id="footer">
+        </footer>
+
+        <div id="templates" >
+
+            <div id="blog_overview">
+                <h2>Post Titel</h2>
+                <ul>
+                    <div> 
+                            <article>
+                                <header>
+                                    <h1> Überschrift Posting</h1>
+                                    <p> Author: Ich </p>
+                                </header> 
+                                <section>
+                                    <p>preview of the content of the article</p>   
+                                </section>
+                            </article>
+                        </div>
+                </ul>
+               
+            </div>
+
+            <div id="post_detail">
+                <h2>Post Titel</h2>
+                <p>content of the article</p>
+                <a href="/overview">Overview</a>
+            </div>
+            
+            <ul id="buttons">
+                <li><img class="icon" src="/img/edit.svg" alt="Edit"></li>
+                <li><img class="icon" src="/img/garbage.svg" alt="Delete"></li>
+            </ul>
+
+            <div id="contact">
+                <p> Bei Fragen kontaktieren Sie bitte: %name, %email</p>
+            </div>
+
+        </div>
+    </body>
+</html>
