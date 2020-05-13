@@ -4,74 +4,107 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
 
-        <title>Single Page App</title>
+        <title>Horsts Fotoblog</title>
     </head>
-    
-    <nav>
-        <a href="/about/">about</a>
-        <a href="/service/">service</a>
-    </nav>
+
+
 
     <body>
         <header>
-            <h1>Blogtitel</h1>
+            <h1>Horsts Fotoblog</h1>
         </header>
         <hr>
 
         <main id="main-content">
         </main>
 
+        <nav>
+            <a href="/about/">about</a>
+            <a href="/service/">service</a>
+        </nav>
+
         <hr>
-        <footer id="footer">
-        </footer>
 
         <div id="templates" >
 
             <div id="blog_overview">
-                <h2>Post Titel</h2>
-                    <div> 
-                            <article>
-                                <header>
-                                    <h1> Überschrift Posting</h1>
-                                    <p> Author: Ich </p>
-                                </header> 
-                                <section>
-                                    <p>preview of the content of the article</p>   
-                                </section>
-                            </article>
-                    </div>
+
+                <div> 
+                    <article>
+                        <header>
+                            <h2>Post Titel</h2>
+                            <p> Author: Horst </p>
+                        </header> 
+                        <section>
+                            <p>preview of the content of the article</p>   
+                        </section>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h2>Post Titel</h2>
+                            <p> Author: Tina </p>
+                        </header> 
+                        <section>
+                            <p>preview of the content of the article</p>   
+                        </section>
+                    </article>
+                </div>
             </div>
 
+            <hr>
             <div id="post_detail">
                 <article>
-                <h2>Post Titel</h2>
-                <p>preview of content of the article</p>
+                    <h2>Post Titel</h2>
+                    <p>whole content of the article</p>
                 </article>
-                
-                <article>
-                <h2>Post Titel 2 </h2>
-                <p>preview of content of the article</p>
-                </article>
-                
-                <a href="/overview">go back to Overview</a>
+                <a href="/overview">go back to home</a>
             </div>
 
             <hr>
             <div id="about_view">
+                <header>
+                    <h2>about me</h2>
+                    <p> Lasst mich vorstellen:</p>
+                </header> 
                 <p> Ich bin Horst & Fotograf in Berlin. </p>
             </div>
-            
-             <hr>
+
+            <hr>
             <div id="service_view">
+                <header>
+                    <h2>Liste der Services</h2>
+                </header> 
                 <ul>
                     <li> Portraitfotos </li> 
                     <li> Landschaftsfotos </li>
                     <li> Hochzeitsfotos </li>
                     <li> und viel mehr </li>
                 </ul>
+
+                <p> Wir finden eine immer eine Lösung. </p>
+
+            </div>
+            <hr>
+            
+            <div id="impressum_view">
+                <header>
+                    <h2>Impressum</h2>
+                </header> 
+                <p>Horst Müller</p>
+                <p>Berlinerallee 69</p>
+                <p>13049 Berlin</p>
                 
             </div>
+            <hr>
 
         </div>
+
+        <footer id="footer">
+
+            <a href="/impressum/">impressum</a>
+            <a href="/archive/">archive</a>
+        </footer>
+
     </body>
 </html>
